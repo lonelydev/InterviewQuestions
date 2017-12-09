@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace ReverseWordsInASentence
+namespace ReverseWordsInASentenceQuestion
 {
-    class Program
+    public class ReverseWordsInASentence
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             var nOfTests = Console.ReadLine();
             var numberOfTests = 0;
@@ -16,7 +16,7 @@ namespace ReverseWordsInASentence
             {
                 var inputSentence = Console.ReadLine();
                 //listOfSentences.Add(inputSentence);
-                Console.WriteLine(ReverseWordsInASentence(inputSentence));
+                Console.WriteLine(ReverseWordsInTheSentence(inputSentence));
                 numberOfTests--;
             }
             //var listOfReversedStrings = ReverseAllStrings(listOfSentences);
@@ -36,7 +36,7 @@ namespace ReverseWordsInASentence
         //    return listOfReversed;
         //}
 
-        public static string ReverseWordsInASentence(string sentence)
+        public static string ReverseWordsInTheSentence(string sentence)
         {
             var words = sentence.Split('.').Reverse().ToArray();
             return string.Join(".", words);

@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseWordsInASentence", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobotGrid", "RobotGrid\RobotGrid.csproj", "{6EDA3A72-B87C-471A-8181-7E2E0A03A873}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseWordsInASentenceTester", "ReverseWordsInASentenceTester\ReverseWordsInASentenceTester.csproj", "{933D93DF-2B9D-4713-B479-1091DCCD60D1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{6EDA3A72-B87C-471A-8181-7E2E0A03A873}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6EDA3A72-B87C-471A-8181-7E2E0A03A873}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6EDA3A72-B87C-471A-8181-7E2E0A03A873}.Release|Any CPU.Build.0 = Release|Any CPU
+		{933D93DF-2B9D-4713-B479-1091DCCD60D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{933D93DF-2B9D-4713-B479-1091DCCD60D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{933D93DF-2B9D-4713-B479-1091DCCD60D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{933D93DF-2B9D-4713-B479-1091DCCD60D1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
