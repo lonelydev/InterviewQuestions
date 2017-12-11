@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RobotGrid", "RobotGrid\Robo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ReverseWordsInASentenceTester", "ReverseWordsInASentenceTester\ReverseWordsInASentenceTester.csproj", "{933D93DF-2B9D-4713-B479-1091DCCD60D1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueTaleOfTwoStacks", "QueueTaleOfTwoStacks\QueueTaleOfTwoStacks.csproj", "{55EA4F01-A26B-4617-9084-F611018CBD61}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{933D93DF-2B9D-4713-B479-1091DCCD60D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{933D93DF-2B9D-4713-B479-1091DCCD60D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{933D93DF-2B9D-4713-B479-1091DCCD60D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55EA4F01-A26B-4617-9084-F611018CBD61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55EA4F01-A26B-4617-9084-F611018CBD61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55EA4F01-A26B-4617-9084-F611018CBD61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55EA4F01-A26B-4617-9084-F611018CBD61}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
