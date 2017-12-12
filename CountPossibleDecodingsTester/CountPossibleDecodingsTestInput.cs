@@ -14,7 +14,8 @@ namespace CountPossibleDecodingsTester
                 yield return new TestCaseData("675356291270936062618792", 24).Returns(0);
                 yield return new TestCaseData("123", 3).Returns(3);
                 yield return new TestCaseData("103", 3).Returns(1);
-                yield return new TestCaseData("23759228973", 11).Returns(4);            
+                yield return new TestCaseData("23759228973", 11).Returns(4);
+                yield return new TestCaseData("05279196", 8).Returns(0);
             }
         }
 

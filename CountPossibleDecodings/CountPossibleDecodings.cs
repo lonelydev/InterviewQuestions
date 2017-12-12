@@ -49,7 +49,7 @@ namespace CountPossibleDecodingsQuestion
             }
             foreach (var consoleInput in listOfConsoleInputs)
             {
-                var count = CountAlphabetsDecoded(consoleInput.InputString, consoleInput.Length);
+                var count = NumberOfDecodedStringsRecursive(consoleInput.InputString, consoleInput.Length);
                 Console.WriteLine(count);
                 Console.ReadKey();
             }            
@@ -96,8 +96,16 @@ namespace CountPossibleDecodingsQuestion
         /// <returns></returns>
         public static int NumberOfDecodedStringsRecursive(string digits, int lengthOfInput)
         {
+            if (lengthOfInput == 0)
+            {
+                return 1;
+            }
+            else if (lengthOfInput == 1)
+            {
+                if (digits != "0") return 1;
+                return 0;
+            }
             var count = 0;
-            if (lengthOfInput < 2 && lengthOfInput >= 0) return 1;
             var lastChar = int.Parse(digits[lengthOfInput - 1].ToString());
             if (lastChar > 0)
             {
@@ -105,12 +113,10 @@ namespace CountPossibleDecodingsQuestion
             }
 
             var secondLastChar = int.Parse(digits[lengthOfInput - 2].ToString());
-            if (secondLastChar != 0)
-            {
-                var lastTwoChars = secondLastChar * 10 + lastChar;
-                if ((lastTwoChars) < 27 && lastTwoChars > 0)
-                    count += NumberOfDecodedStringsRecursive(digits.Substring(0, lengthOfInput - 2), lengthOfInput - 2);
-            }
+            var lastTwoChars = secondLastChar * 10 + lastChar;
+            if (secondLastChar == 1 || (secondLastChar == 2 && lastChar < 7))
+                count += NumberOfDecodedStringsRecursive(digits.Substring(0, lengthOfInput - 2), lengthOfInput - 2);
+
             return count;
         }
 
