@@ -49,6 +49,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheMaximumNumberWithAllDigi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheMaximumNumberWithAllDigitsInANumberTester", "TheMaximumNumberWithAllDigitsInANumberTester\TheMaximumNumberWithAllDigitsInANumberTester.csproj", "{938F4D8C-9101-4965-8D63-05018E3A5743}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumTreeQuestion", "SumTree\SumTreeQuestion.csproj", "{C89EB85F-83F9-435A-8914-3E3B912E2F53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumTreeQuestionTester", "SumTreeQuestionTester\SumTreeQuestionTester.csproj", "{F4ACF20C-CD60-4820-9507-BCF53496E22B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -147,6 +151,14 @@ Global
 		{938F4D8C-9101-4965-8D63-05018E3A5743}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{938F4D8C-9101-4965-8D63-05018E3A5743}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{938F4D8C-9101-4965-8D63-05018E3A5743}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C89EB85F-83F9-435A-8914-3E3B912E2F53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C89EB85F-83F9-435A-8914-3E3B912E2F53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C89EB85F-83F9-435A-8914-3E3B912E2F53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C89EB85F-83F9-435A-8914-3E3B912E2F53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4ACF20C-CD60-4820-9507-BCF53496E22B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4ACF20C-CD60-4820-9507-BCF53496E22B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4ACF20C-CD60-4820-9507-BCF53496E22B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4ACF20C-CD60-4820-9507-BCF53496E22B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
