@@ -53,6 +53,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumTreeQuestion", "SumTree\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SumTreeQuestionTester", "SumTreeQuestionTester\SumTreeQuestionTester.csproj", "{F4ACF20C-CD60-4820-9507-BCF53496E22B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackMinimumQuestion", "StackMinimumQuestion\StackMinimumQuestion.csproj", "{3C5AD6E6-B303-459A-867C-59D439B7DE76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackMinimumQuestionTester", "StackMinimumQuestionTester\StackMinimumQuestionTester.csproj", "{6B3B757F-DEA0-457C-91AB-3743AECC25F2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -159,6 +163,14 @@ Global
 		{F4ACF20C-CD60-4820-9507-BCF53496E22B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4ACF20C-CD60-4820-9507-BCF53496E22B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4ACF20C-CD60-4820-9507-BCF53496E22B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C5AD6E6-B303-459A-867C-59D439B7DE76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C5AD6E6-B303-459A-867C-59D439B7DE76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C5AD6E6-B303-459A-867C-59D439B7DE76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C5AD6E6-B303-459A-867C-59D439B7DE76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B3B757F-DEA0-457C-91AB-3743AECC25F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B3B757F-DEA0-457C-91AB-3743AECC25F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B3B757F-DEA0-457C-91AB-3743AECC25F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B3B757F-DEA0-457C-91AB-3743AECC25F2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
