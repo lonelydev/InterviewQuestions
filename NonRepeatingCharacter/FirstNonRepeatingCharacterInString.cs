@@ -24,23 +24,7 @@ namespace FirstNonRepeatingCharacterInStringQuestion
                 Console.WriteLine(NonRepeatingCharacter(strLengths));
             }
             Console.ReadKey();
-        }
-
-        public static string NonRepeatingCharacterInSequence(StringsLengths strLength)
-        {
-            char prev = strLength.InputString[0];
-            string returnString = "-1";
-            for (int i = 1; i < strLength.InputString.Length; i++)
-            {
-                if (strLength.InputString[i] != prev)
-                {
-                    returnString = prev.ToString();
-                    break;
-                }
-                prev = strLength.InputString[i];
-            }
-            return returnString;
-        }
+        }        
 
         public static string NonRepeatingCharacter(StringsLengths strLength)
         {

@@ -1,28 +1,29 @@
-﻿Given a string s consisting of lowercase Latin Letters, find the first non repeating character in s.
+﻿# First non-repeating character in a string
 
-Input:
+Given a string s consisting of lowercase Latin Letters, find the first non repeating character in s.
+
+## Input:
 
 The first line contains T denoting the number of testcases. Then follows description of testcases.
 Each case begins with a single integer N denoting the length of string. The next line contains the string s.
  
-Output:
+## Output:
 
 
  For each testcase, print the first non repeating character present in string.
  
  Print -1 if there is no non repeating character.
  
-Constraints:
+### Constraints:
 
 
  1<=T<=50
  1<=N<=100
 
 
-Example:
+## Example:
 
-
-Input :
+### Input :
 
 3
 5  
@@ -34,7 +35,7 @@ xxyyzz
 
  
 
-Output :
+### Output :
 
 h
 c
