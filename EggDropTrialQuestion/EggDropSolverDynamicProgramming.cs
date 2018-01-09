@@ -70,7 +70,7 @@ namespace EggDropTrialQuestion
                         //Evaluates 1+min{max(numeggs[i][j-x],numeggs[i-1][x-1])), for x:1,2,3...j-1,j}
                         minimum = Math.Min(minimum,
                         (1 + Math.Max(optimalNumberOfDrops[numOfEggs, floor - remainingFloor],
-                        FindOptimalNumberOfDrops(numOfEggs - 1, remainingFloor - 1))));
+                        optimalNumberOfDrops[numOfEggs - 1, remainingFloor - 1])));
                     }                    
                     optimalNumberOfDrops[numOfEggs, floor] = minimum;
                 }
