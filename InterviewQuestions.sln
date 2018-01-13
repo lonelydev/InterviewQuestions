@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2010
+VisualStudioVersion = 15.0.27130.2020
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnagramQuestion", "Anagram\AnagramQuestion.csproj", "{19D8E13B-541E-4041-9CBD-B1EDD94F0C56}"
 EndProject
@@ -67,6 +67,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EggDropTrialQuestion", "EggDropTrialQuestion\EggDropTrialQuestion.csproj", "{C788EAE6-D9DD-473F-A551-62DFD2EE2689}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EggDropTrialTester", "EggDropTrialTester\EggDropTrialTester.csproj", "{1E686BC1-C10E-4D60-805E-C6F81DED2212}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedListMergeSort", "LinkedListMergeSort\LinkedListMergeSort.csproj", "{C6226CB8-76F1-476F-A13E-C0F4F44490FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinkedListMergeSortTester", "LinkedListMergeSortTester\LinkedListMergeSortTester.csproj", "{3B2C42BA-2278-4709-B32D-8832B85F31DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -194,6 +198,14 @@ Global
 		{1E686BC1-C10E-4D60-805E-C6F81DED2212}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E686BC1-C10E-4D60-805E-C6F81DED2212}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E686BC1-C10E-4D60-805E-C6F81DED2212}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6226CB8-76F1-476F-A13E-C0F4F44490FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6226CB8-76F1-476F-A13E-C0F4F44490FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6226CB8-76F1-476F-A13E-C0F4F44490FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6226CB8-76F1-476F-A13E-C0F4F44490FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B2C42BA-2278-4709-B32D-8832B85F31DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B2C42BA-2278-4709-B32D-8832B85F31DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B2C42BA-2278-4709-B32D-8832B85F31DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B2C42BA-2278-4709-B32D-8832B85F31DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
