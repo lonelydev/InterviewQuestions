@@ -53,5 +53,19 @@ namespace OverlappingRectanglesQuestion
 
             return 1;
         }
+
+        public static int DoRectanglesOverlap(RectangleCoordinates first, RectangleCoordinates second)
+        {
+            if (first.LeftTop.X > second.RightBottom.X || 
+                second.LeftTop.X > first.RightBottom.X)
+                return 0;
+
+            if (first.LeftTop.Y < second.RightBottom.Y || 
+                second.LeftTop.Y < first.RightBottom.Y)
+                return 0;
+
+            return 1;
+        }
+
     }
 }
