@@ -80,6 +80,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstRepeatedWordInASentenc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtopianTreeTester", "UtopianTreeTester\UtopianTreeTester.csproj", "{EB92C2A2-2A20-40AD-8E07-B7844466E5CA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertNumberIntoWords", "ConvertNumberIntoWords\ConvertNumberIntoWords.csproj", "{1FEC05BA-0651-4D07-AA5B-967351B30A94}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -230,6 +232,10 @@ Global
 		{EB92C2A2-2A20-40AD-8E07-B7844466E5CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB92C2A2-2A20-40AD-8E07-B7844466E5CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB92C2A2-2A20-40AD-8E07-B7844466E5CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FEC05BA-0651-4D07-AA5B-967351B30A94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FEC05BA-0651-4D07-AA5B-967351B30A94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FEC05BA-0651-4D07-AA5B-967351B30A94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FEC05BA-0651-4D07-AA5B-967351B30A94}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
