@@ -1,11 +1,11 @@
 ﻿# Utopian Tree
 
 Once upon a time in Utopia, there was this wonderful tree that people were fond of. 
-It had a very interesting growth pattern. Every year, `it had two growth cycles`.
+It had a very interesting growth pattern. Every year, it had `two growth cycles`.
 One during monsoon and the other during summer. 
 
-  * During monsoon the tree grew `twice its height`
-  * During summer it grew just `1 additional meter`
+  * During monsoon, the tree grew `twice its height`
+  * During summer, it grew just `1 additional meter`
 
 If a utopian citizen were to plant a sapling of this tree of `1 meter` height in the onset of monsoon, could you tell what the height of the tree would be after `n` growth cycles would be?
 
