@@ -7,3 +7,5 @@ A repeated word is when a word occurs more than once in a sentence provided the 
 For example, `had != Had`.
 
 Given a sentence as a string, find the first repeated word in the string. 
+
+The sentence will always have a repeated word. 

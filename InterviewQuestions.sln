@@ -76,6 +76,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UtopianTree", "UtopianTree\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstRepeatedWordInASentence", "FirstRepeatedWordInASentence\FirstRepeatedWordInASentence.csproj", "{74AC33E6-0130-4D4A-96CE-0F8E0E67A9A5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstRepeatedWordInASentenceTester", "FirstRepeatedWordInASentenceTester\FirstRepeatedWordInASentenceTester.csproj", "{37A4ED76-D050-4965-972E-5859B1FE5078}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -218,6 +220,10 @@ Global
 		{74AC33E6-0130-4D4A-96CE-0F8E0E67A9A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74AC33E6-0130-4D4A-96CE-0F8E0E67A9A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74AC33E6-0130-4D4A-96CE-0F8E0E67A9A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37A4ED76-D050-4965-972E-5859B1FE5078}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37A4ED76-D050-4965-972E-5859B1FE5078}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37A4ED76-D050-4965-972E-5859B1FE5078}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37A4ED76-D050-4965-972E-5859B1FE5078}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,30 +1,26 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
 namespace FirstRepeatedWordInASentence
 {
     public class FirstRepeatWordFinder
     {
-        static string FirstRepeatedWord(string sentence)
+        public static string FirstRepeatedWord(string sentence)
         {
-            var wordRepCounter = new Dictionary<string, int>();
+            var wordRepCounter = new HashSet<string>();
             var delimiters = new char[] { ' ', ',', ':', '-', '.', '\t' };
             string firstRepeatWord = null;
             foreach (var word in sentence.Split(delimiters))
             {
                 if (string.IsNullOrEmpty(word) || string.IsNullOrWhiteSpace(word))
                     continue;
-                if (wordRepCounter.ContainsKey(word))
+                if (wordRepCounter.Contains(word))
                 {
                     firstRepeatWord = word;
                     break;
                 }
                 else
                 {
-                    wordRepCounter.Add(word, 1);
+                    wordRepCounter.Add(word);
                 }
             }
             return firstRepeatWord;
