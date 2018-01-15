@@ -85,6 +85,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertNumberIntoWords", "C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConvertNumberIntoWordsTester", "ConvertNumberIntoWordsTester\ConvertNumberIntoWordsTester.csproj", "{083E9B1A-68CA-402C-873F-906760F9317E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DavisStairs", "DavisStairs\DavisStairs.csproj", "{708B40A7-58B7-467C-A09E-E33A1B51715A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -243,6 +245,10 @@ Global
 		{083E9B1A-68CA-402C-873F-906760F9317E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{083E9B1A-68CA-402C-873F-906760F9317E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{083E9B1A-68CA-402C-873F-906760F9317E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{708B40A7-58B7-467C-A09E-E33A1B51715A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{708B40A7-58B7-467C-A09E-E33A1B51715A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{708B40A7-58B7-467C-A09E-E33A1B51715A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{708B40A7-58B7-467C-A09E-E33A1B51715A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
