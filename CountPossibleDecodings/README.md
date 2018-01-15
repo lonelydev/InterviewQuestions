@@ -16,6 +16,12 @@ You are an FBI agent. You have to determine the total number of ways that messag
   * It may be assumed that the input contains valid digits from 0 to 9 
   * If there are leading 0’s, extra trailing 0’s and two or more consecutive 0’s then it is an invalid string.
 
+## Online Resources
+
+  * Solution and explanation: https://www.geeksforgeeks.org/count-possible-decodings-given-digit-sequence/
+  * https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/#!
+  * https://www.hackerrank.com/domains/algorithms/dynamic-programming
+
 ## Example
 
 Given encoded message "123",  it could be decoded as:

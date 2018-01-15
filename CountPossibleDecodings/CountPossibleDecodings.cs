@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace CountPossibleDecodingsQuestion
 {
@@ -52,39 +49,9 @@ namespace CountPossibleDecodingsQuestion
                 var count = NumberOfDecodedStringsRecursive(consoleInput.InputString, consoleInput.Length);
                 Console.WriteLine(count);
                 Console.ReadKey();
-            }            
-        }
-
-        /// <summary>
-        /// INCORRECT IMPLEMENTATION
-        /// </summary>
-        /// <param name="input"></param>
-        /// <param name="lengthOfInput"></param>
-        /// <returns></returns>
-        public static int CountAlphabetsDecoded(string input, int lengthOfInput)
-        {
-            var count = 0;
-            var containsZero = false;
-            for(int i = 0; i < lengthOfInput - 1; i++)
-            {
-                if (input[i] == '0' && count > 0)
-                {
-                    //leading 0 and two or more consecutive zeros are invalid
-                    //count--;
-                    containsZero = true;
-                    continue;
-                }
-                var twoCharStringFromIndex = input.Substring(i, 2);                
-                var parsedInteger = int.Parse(twoCharStringFromIndex);
-                if (parsedInteger < 27)
-                {
-                    count++;
-                }
             }
-            if (!containsZero) count++;
-            return count;
         }
-
+        
         /// <summary>
         /// NumberOfDecodedStrings("1234") = NumberOfDecodedStrings("123")4 + NumberNumberOfDecodedStrings("12")34
         /// NumberOfDecodedStrings("123") = NumberOfDecodedStrings("12") + NumberNumberOfDecodedStrings("3") + NumberNumberOfDecodedStrings("34");
