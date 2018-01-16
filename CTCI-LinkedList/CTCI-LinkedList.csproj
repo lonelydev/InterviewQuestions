@@ -44,10 +44,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Problems\LinkedList_1.cs" />
+    <Compile Include="Problems\LinkedList_2.cs" />
+    <Compile Include="Tests\LinkedListCreator.cs" />
     <Compile Include="Tests\LinkedList_1Tester.cs" />
+    <Compile Include="Tests\LinkedList_2TestInput.cs" />
     <Compile Include="Tests\LinkedList_1TestInput.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SinglyLinkedList.cs" />
+    <Compile Include="Tests\LinkedList_2Tester.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -11,18 +11,7 @@ namespace CTCI_LinkedList.Tests
             TestCaseSource(typeof(LinkedList_1TestInput), "UnsortedLinkedListTestData")]
         public void TestRemovalOfDuplicatesWithBuffer(List<int> inputList, string expected)
         {
-            SinglyLinkedList node = null;
-            for (int i=0;i < inputList.Count;i++)
-            {
-                if (i == 0)
-                {
-                    node = new SinglyLinkedList(inputList[i]);
-                }
-                else
-                {
-                    node.AppendToTail(inputList[i]);
-                }
-            }
+            SinglyLinkedList node = LinkedListCreator.CreateSinglyLinkedListFromGenericList(inputList);
             LinkedList_1.RemoveDuplicates(node);
             Assert.AreEqual(expected, SinglyLinkedList.ToString(node));
         }
@@ -31,18 +20,7 @@ namespace CTCI_LinkedList.Tests
             TestCaseSource(typeof(LinkedList_1TestInput), "UnsortedLinkedListTestData")]
         public void TestRemovalOfDuplicatesWithoutBuffer(List<int> inputList, string expected)
         {
-            SinglyLinkedList node = null;
-            for (int i = 0; i < inputList.Count; i++)
-            {
-                if (i == 0)
-                {
-                    node = new SinglyLinkedList(inputList[i]);
-                }
-                else
-                {
-                    node.AppendToTail(inputList[i]);
-                }
-            }
+            SinglyLinkedList node = LinkedListCreator.CreateSinglyLinkedListFromGenericList(inputList);
             LinkedList_1.RemoveDuplicatesWithoutBuffer(node);
             Assert.AreEqual(expected, SinglyLinkedList.ToString(node));
         }
