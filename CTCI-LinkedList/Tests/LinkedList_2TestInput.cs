@@ -18,6 +18,18 @@ namespace CTCI_LinkedList.Tests
 
                 yield return
                     new TestCaseData(
+                        new List<int> { 13, 12, 15 }, //list of elements
+                        1, //kth the last element
+                        15); //expected value
+
+                yield return
+                    new TestCaseData(
+                        new List<int> { 13, 12, 15 }, //list of elements
+                        3, //kth the last element
+                        13); //expected value
+
+                yield return
+                    new TestCaseData(
                         new List<int> { 13,12 },
                         2, 13);
 
