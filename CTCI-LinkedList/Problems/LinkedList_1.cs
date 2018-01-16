@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace CTCI_LinkedList
+namespace CTCI_LinkedList.Problems
 {
     /// <summary>
     /// Solutions for removing duplicates from an unsorted singly linked LinkedList. 

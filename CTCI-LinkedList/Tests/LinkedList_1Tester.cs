@@ -1,7 +1,8 @@
 ﻿using NUnit.Framework;
 using System.Collections.Generic;
+using CTCI_LinkedList.Problems;
 
-namespace CTCI_LinkedList
+namespace CTCI_LinkedList.Tests
 {
     [TestFixture]
     public class LinkedList_1Tester

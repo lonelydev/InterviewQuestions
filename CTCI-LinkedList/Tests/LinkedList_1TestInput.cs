@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using NUnit.Framework;
 
-namespace CTCI_LinkedList
+namespace CTCI_LinkedList.Tests
 {
     public class LinkedList_1TestInput
     {
