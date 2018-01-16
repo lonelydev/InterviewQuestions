@@ -89,6 +89,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DavisStairs", "DavisStairs\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CTCI-LinkedList", "CTCI-LinkedList\CTCI-LinkedList.csproj", "{6CCEE05A-70C9-4AE6-B497-74C300106E56}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CTCI-ArraysAndStrings", "CTCI-ArraysAndStrings\CTCI-ArraysAndStrings.csproj", "{EDBEBA2A-07A5-4AE0-9A04-05E8ED0EEDF0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -255,6 +257,10 @@ Global
 		{6CCEE05A-70C9-4AE6-B497-74C300106E56}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CCEE05A-70C9-4AE6-B497-74C300106E56}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6CCEE05A-70C9-4AE6-B497-74C300106E56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDBEBA2A-07A5-4AE0-9A04-05E8ED0EEDF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDBEBA2A-07A5-4AE0-9A04-05E8ED0EEDF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDBEBA2A-07A5-4AE0-9A04-05E8ED0EEDF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDBEBA2A-07A5-4AE0-9A04-05E8ED0EEDF0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
