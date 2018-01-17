@@ -43,9 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Problems\ArrayString_4.cs" />
     <Compile Include="Problems\ArrayString_1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Tests\ArrayString_1Tester.cs" />
+    <Compile Include="Tests\ArrayString_4Tester.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
