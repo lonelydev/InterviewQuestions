@@ -91,6 +91,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CTCI-LinkedList", "CTCI-Lin
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CTCI-ArraysAndStrings", "CTCI-ArraysAndStrings\CTCI-ArraysAndStrings.csproj", "{EDBEBA2A-07A5-4AE0-9A04-05E8ED0EEDF0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayPairSumK", "ArrayPairSumK\ArrayPairSumK.csproj", "{6041ACE6-0CE2-4D07-B157-48D06C412785}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -261,6 +263,10 @@ Global
 		{EDBEBA2A-07A5-4AE0-9A04-05E8ED0EEDF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EDBEBA2A-07A5-4AE0-9A04-05E8ED0EEDF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EDBEBA2A-07A5-4AE0-9A04-05E8ED0EEDF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6041ACE6-0CE2-4D07-B157-48D06C412785}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6041ACE6-0CE2-4D07-B157-48D06C412785}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6041ACE6-0CE2-4D07-B157-48D06C412785}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6041ACE6-0CE2-4D07-B157-48D06C412785}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
