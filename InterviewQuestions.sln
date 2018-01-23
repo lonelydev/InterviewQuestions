@@ -5,8 +5,6 @@ VisualStudioVersion = 15.0.27130.2024
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnagramQuestion", "Anagram\AnagramQuestion.csproj", "{19D8E13B-541E-4041-9CBD-B1EDD94F0C56}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnagramQuestionTester", "AnagramTester\AnagramQuestionTester.csproj", "{EB91885E-82C0-4E3B-9874-49581D3969D7}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayEqualsQuestion", "ArrayEquals\ArrayEqualsQuestion.csproj", "{5E3D7836-38A6-4AB5-B23D-C4BC6A6C945D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountPossibleDecodingsQuestion", "CountPossibleDecodings\CountPossibleDecodingsQuestion.csproj", "{0310D9CE-E7AA-4093-9CF2-12760EE6AFCB}"
@@ -101,10 +99,6 @@ Global
 		{19D8E13B-541E-4041-9CBD-B1EDD94F0C56}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19D8E13B-541E-4041-9CBD-B1EDD94F0C56}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19D8E13B-541E-4041-9CBD-B1EDD94F0C56}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EB91885E-82C0-4E3B-9874-49581D3969D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EB91885E-82C0-4E3B-9874-49581D3969D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EB91885E-82C0-4E3B-9874-49581D3969D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EB91885E-82C0-4E3B-9874-49581D3969D7}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5E3D7836-38A6-4AB5-B23D-C4BC6A6C945D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5E3D7836-38A6-4AB5-B23D-C4BC6A6C945D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5E3D7836-38A6-4AB5-B23D-C4BC6A6C945D}.Release|Any CPU.ActiveCfg = Release|Any CPU
