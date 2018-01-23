@@ -1,8 +1,8 @@
 ﻿using System.Collections;
-using ConvertNumberIntoWords;
+using ConvertNumberIntoWords.Problem;
 using NUnit.Framework;
 
-namespace ConvertNumberIntoWordsTester
+namespace ConvertNumberIntoWordsTester.Tests
 {
     [TestFixture]
     public class NumberWordTester
