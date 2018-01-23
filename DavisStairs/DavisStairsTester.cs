@@ -22,7 +22,7 @@ namespace DavisStairs
                 yield return new TestCaseData(0).Returns(0);
                 yield return new TestCaseData(4).Returns(8);
                 yield return new TestCaseData(5).Returns(15);
-                yield return new TestCaseData(6).Returns(30);
+                yield return new TestCaseData(6).Returns(28);
             }
         }
     }
