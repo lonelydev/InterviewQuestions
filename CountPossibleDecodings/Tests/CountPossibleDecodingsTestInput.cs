@@ -1,7 +1,7 @@
 ﻿using NUnit.Framework;
 using System.Collections;
 
-namespace CountPossibleDecodingsTester
+namespace CountPossibleDecodingsTester.Tests
 {
     public class CountPossibleDecodingsTestInput
     {

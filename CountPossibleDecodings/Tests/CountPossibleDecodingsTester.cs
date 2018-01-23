@@ -1,7 +1,7 @@
-﻿using CountPossibleDecodingsQuestion;
+﻿using CountPossibleDecodingsQuestion.Problem;
 using NUnit.Framework;
 
-namespace CountPossibleDecodingsTester
+namespace CountPossibleDecodingsTester.Tests
 {
     [TestFixture]
     public class CountPossibleDecodingsTester
