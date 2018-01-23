@@ -9,8 +9,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayEqualsQuestion", "Arra
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountPossibleDecodingsQuestion", "CountPossibleDecodings\CountPossibleDecodingsQuestion.csproj", "{0310D9CE-E7AA-4093-9CF2-12760EE6AFCB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountPossibleDecodingsTester", "CountPossibleDecodingsTester\CountPossibleDecodingsTester.csproj", "{535F1BF7-5E23-4977-9982-38BBAAB764A5}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelColumnNameQuestion", "ExcelColumnName\ExcelColumnNameQuestion.csproj", "{5FF14875-31CE-44B7-93D3-1EFECCC2075F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactorialQuestion", "Factorial\FactorialQuestion.csproj", "{77D249AB-C8E8-4530-99FB-D75E91000A64}"
@@ -105,10 +103,6 @@ Global
 		{0310D9CE-E7AA-4093-9CF2-12760EE6AFCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0310D9CE-E7AA-4093-9CF2-12760EE6AFCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0310D9CE-E7AA-4093-9CF2-12760EE6AFCB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{535F1BF7-5E23-4977-9982-38BBAAB764A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{535F1BF7-5E23-4977-9982-38BBAAB764A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{535F1BF7-5E23-4977-9982-38BBAAB764A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{535F1BF7-5E23-4977-9982-38BBAAB764A5}.Release|Any CPU.Build.0 = Release|Any CPU
 		{5FF14875-31CE-44B7-93D3-1EFECCC2075F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{5FF14875-31CE-44B7-93D3-1EFECCC2075F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5FF14875-31CE-44B7-93D3-1EFECCC2075F}.Release|Any CPU.ActiveCfg = Release|Any CPU

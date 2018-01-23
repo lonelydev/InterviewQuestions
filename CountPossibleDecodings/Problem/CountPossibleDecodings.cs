@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace CountPossibleDecodingsQuestion
+namespace CountPossibleDecodingsQuestion.Problem
 {
     /// <summary>
     /// For so A =1, Z=>26
