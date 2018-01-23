@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace AnagramQuestion
+namespace AnagramQuestion.Problem
 {
     public class Anagram
     {

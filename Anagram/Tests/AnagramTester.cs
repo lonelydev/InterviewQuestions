@@ -1,7 +1,7 @@
 ﻿using NUnit.Framework;
-using AnagramQuestion;
+using AnagramQuestion.Problem;
 
-namespace AnagramQuestionTester
+namespace AnagramQuestionTester.Tests
 {
     [TestFixture]
     public class AnagramTester
