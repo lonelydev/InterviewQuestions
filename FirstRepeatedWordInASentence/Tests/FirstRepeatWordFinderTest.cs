@@ -1,7 +1,7 @@
-﻿using FirstRepeatedWordInASentence;
+﻿using FirstRepeatedWordInASentence.Problem;
 using NUnit.Framework;
 
-namespace FirstRepeatedWordInASentenceTester
+namespace FirstRepeatedWordInASentenceTester.Tests
 {
     [TestFixture]
     public class FirstRepeatWordFinderTest

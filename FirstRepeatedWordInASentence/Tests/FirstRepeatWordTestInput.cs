@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using NUnit.Framework;
 
-namespace FirstRepeatedWordInASentenceTester
+namespace FirstRepeatedWordInASentenceTester.Tests
 {
     class FirstRepeatWordTestInput
     {
