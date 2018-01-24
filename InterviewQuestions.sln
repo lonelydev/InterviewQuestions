@@ -15,8 +15,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactorialQuestion", "Factor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciQuestion", "FibonacciQuestion\FibonacciQuestion.csproj", "{1BC2D3A0-A4A2-4CA2-8911-A80CE779F4AD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciQuestionTester", "FibonacciTester\FibonacciQuestionTester.csproj", "{9B1DD504-43B8-418C-B463-DAFA7F6C6664}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestContinuousStringOfRepeatingCharsQuestion", "LongestContinuousStringOfRepeatingCharsQuestion\LongestContinuousStringOfRepeatingCharsQuestion.csproj", "{D6E48D64-A0B1-40D7-9B18-732C1E8E7A2D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestIncreasingSubsequenceQuestion", "LongestIncreasingSubsequence\LongestIncreasingSubsequenceQuestion.csproj", "{D39C07B4-89CB-4056-B725-7A1551AD3598}"
@@ -111,10 +109,6 @@ Global
 		{1BC2D3A0-A4A2-4CA2-8911-A80CE779F4AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BC2D3A0-A4A2-4CA2-8911-A80CE779F4AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1BC2D3A0-A4A2-4CA2-8911-A80CE779F4AD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9B1DD504-43B8-418C-B463-DAFA7F6C6664}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9B1DD504-43B8-418C-B463-DAFA7F6C6664}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9B1DD504-43B8-418C-B463-DAFA7F6C6664}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9B1DD504-43B8-418C-B463-DAFA7F6C6664}.Release|Any CPU.Build.0 = Release|Any CPU
 		{D6E48D64-A0B1-40D7-9B18-732C1E8E7A2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{D6E48D64-A0B1-40D7-9B18-732C1E8E7A2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6E48D64-A0B1-40D7-9B18-732C1E8E7A2D}.Release|Any CPU.ActiveCfg = Release|Any CPU

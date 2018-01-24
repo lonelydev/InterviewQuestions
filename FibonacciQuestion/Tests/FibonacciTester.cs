@@ -1,8 +1,8 @@
 ﻿using System.Collections.Generic;
 using NUnit.Framework;
-using FibonacciQuestion;
+using FibonacciQuestion.Problem;
 
-namespace FibonacciQuestionTester
+namespace FibonacciQuestionTester.Tests
 {
     [TestFixture]
     public class FibonacciTester
