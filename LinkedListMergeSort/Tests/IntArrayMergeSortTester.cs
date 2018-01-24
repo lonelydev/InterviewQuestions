@@ -1,7 +1,7 @@
 ﻿using NUnit.Framework;
-using LinkedListMergeSort;
+using LinkedListMergeSort.Problem;
 
-namespace LinkedListMergeSortTester
+namespace LinkedListMergeSortTester.Tests
 {
     [TestFixture]
     public class IntArrayMergeSortTester
