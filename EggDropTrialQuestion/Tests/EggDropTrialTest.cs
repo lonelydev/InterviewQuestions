@@ -1,7 +1,7 @@
-﻿using EggDropTrialQuestion;
+﻿using EggDropTrialQuestion.Problem;
 using NUnit.Framework;
 
-namespace EggDropTrialTester
+namespace EggDropTrialTester.Tests
 {
     [TestFixture]
     public class EggDropTrialTest

@@ -1,4 +1,4 @@
-﻿namespace EggDropTrialQuestion
+﻿namespace EggDropTrialQuestion.Problem
 {
     interface IOptimalEggDropTrials
     {
