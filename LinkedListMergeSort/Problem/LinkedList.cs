@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Text;
 
-namespace LinkedListMergeSort
+namespace LinkedListMergeSort.Problem
 {
     /// <summary>
     /// A simple implementation of a linkedlist

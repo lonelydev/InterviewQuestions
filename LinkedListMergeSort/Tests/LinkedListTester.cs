@@ -1,5 +1,5 @@
 ﻿using NUnit.Framework;
-using LinkedListMergeSort;
+using LinkedListMergeSort.Problem;
 
 namespace LinkedListMergeSortTester
 {

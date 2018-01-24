@@ -1,4 +1,4 @@
-﻿namespace LinkedListMergeSort
+﻿namespace LinkedListMergeSort.Problem
 {
     public class Node
     {
