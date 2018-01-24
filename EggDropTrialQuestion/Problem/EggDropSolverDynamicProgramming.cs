@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace EggDropTrialQuestion
+namespace EggDropTrialQuestion.Problem
 {
     /// <summary>
     /// This is a dynamic programming and memoization based solution for finding 
