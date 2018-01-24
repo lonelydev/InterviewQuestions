@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace LongestIncreasingSubsequenceQuestion
+namespace LongestIncreasingSubsequenceQuestion.Problem
 {
     public class LongestIncreasingSubsequence
     {

@@ -1,6 +1,6 @@
 ﻿using NUnit.Framework;
-using LongestIncreasingSubsequenceQuestion;
-namespace LongestIncreasingSubsequenceTester
+using LongestIncreasingSubsequenceQuestion.Problem;
+namespace LongestIncreasingSubsequenceTester.Tests
 {
     public class LongestIncreasingSubsequenceTester
     {
