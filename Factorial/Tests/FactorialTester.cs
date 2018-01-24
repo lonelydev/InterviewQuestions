@@ -1,7 +1,7 @@
 ﻿using NUnit.Framework;
-using FactorialQuestion;
+using FactorialQuestion.Problem;
 
-namespace FactorialTester
+namespace FactorialTester.Tests
 {
     [TestFixture]
     public class FactorialTester
