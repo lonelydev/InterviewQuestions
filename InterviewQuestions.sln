@@ -13,8 +13,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelColumnNameQuestion", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactorialQuestion", "Factorial\FactorialQuestion.csproj", "{77D249AB-C8E8-4530-99FB-D75E91000A64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactorialQuestionTester", "FactorialTester\FactorialQuestionTester.csproj", "{B4FD6293-1132-44EB-8FF4-56F00FC8F6FD}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciQuestion", "FibonacciQuestion\FibonacciQuestion.csproj", "{1BC2D3A0-A4A2-4CA2-8911-A80CE779F4AD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FibonacciQuestionTester", "FibonacciTester\FibonacciQuestionTester.csproj", "{9B1DD504-43B8-418C-B463-DAFA7F6C6664}"
@@ -109,10 +107,6 @@ Global
 		{77D249AB-C8E8-4530-99FB-D75E91000A64}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77D249AB-C8E8-4530-99FB-D75E91000A64}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77D249AB-C8E8-4530-99FB-D75E91000A64}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B4FD6293-1132-44EB-8FF4-56F00FC8F6FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B4FD6293-1132-44EB-8FF4-56F00FC8F6FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B4FD6293-1132-44EB-8FF4-56F00FC8F6FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B4FD6293-1132-44EB-8FF4-56F00FC8F6FD}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1BC2D3A0-A4A2-4CA2-8911-A80CE779F4AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1BC2D3A0-A4A2-4CA2-8911-A80CE779F4AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1BC2D3A0-A4A2-4CA2-8911-A80CE779F4AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
