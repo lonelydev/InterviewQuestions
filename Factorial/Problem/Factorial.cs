@@ -1,4 +1,4 @@
-﻿namespace FactorialQuestion
+﻿namespace FactorialQuestion.Problem
 {
     public class Factorial
     {
