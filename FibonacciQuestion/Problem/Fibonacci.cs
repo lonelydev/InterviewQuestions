@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace FibonacciQuestion
+namespace FibonacciQuestion.Problem
 {
     /// <summary>
     /// Write a piece of code to create a Fibonacci sequence using recursion.
