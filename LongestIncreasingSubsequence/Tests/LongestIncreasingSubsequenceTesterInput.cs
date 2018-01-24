@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using NUnit.Framework;
 
-namespace LongestIncreasingSubsequenceTester
+namespace LongestIncreasingSubsequenceTester.Tests
 {
     public class LongestIncreasingSubsequenceTesterInput
     {

@@ -19,8 +19,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestContinuousStringOfRe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestIncreasingSubsequenceQuestion", "LongestIncreasingSubsequence\LongestIncreasingSubsequenceQuestion.csproj", "{D39C07B4-89CB-4056-B725-7A1551AD3598}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LongestIncreasingSubsequenceTester", "LongestIncreasingSubsequenceTester\LongestIncreasingSubsequenceTester.csproj", "{590770C8-75F9-428D-B549-80C95F66444E}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstNonRepeatingCharacterInStringQuestion", "NonRepeatingCharacter\FirstNonRepeatingCharacterInStringQuestion.csproj", "{BC522C48-A6D1-4CE9-9FD7-E9DBF4EB0927}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OverlappingRectanglesQuestion", "OverlappingRectangles\OverlappingRectanglesQuestion.csproj", "{5AC98C57-1136-4456-857E-796ADE64B405}"
@@ -111,10 +109,6 @@ Global
 		{D39C07B4-89CB-4056-B725-7A1551AD3598}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D39C07B4-89CB-4056-B725-7A1551AD3598}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D39C07B4-89CB-4056-B725-7A1551AD3598}.Release|Any CPU.Build.0 = Release|Any CPU
-		{590770C8-75F9-428D-B549-80C95F66444E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{590770C8-75F9-428D-B549-80C95F66444E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{590770C8-75F9-428D-B549-80C95F66444E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{590770C8-75F9-428D-B549-80C95F66444E}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BC522C48-A6D1-4CE9-9FD7-E9DBF4EB0927}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BC522C48-A6D1-4CE9-9FD7-E9DBF4EB0927}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BC522C48-A6D1-4CE9-9FD7-E9DBF4EB0927}.Release|Any CPU.ActiveCfg = Release|Any CPU
