@@ -1,4 +1,4 @@
-﻿namespace FirstNonRepeatingCharacterInStringQuestion
+﻿namespace FirstNonRepeatingCharacterInStringQuestion.Problem
 {
     public class StringsLengths
     {

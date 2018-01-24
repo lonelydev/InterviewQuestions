@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace FirstNonRepeatingCharacterInStringQuestion
+namespace FirstNonRepeatingCharacterInStringQuestion.Problem
 {
     public class FirstNonRepeatingCharacterInString
     {

@@ -1,7 +1,7 @@
-﻿using FirstNonRepeatingCharacterInStringQuestion;
+﻿using FirstNonRepeatingCharacterInStringQuestion.Problem;
 using NUnit.Framework;
 
-namespace FirstNonRepeatingCharactersInStringTester
+namespace FirstNonRepeatingCharactersInStringTester.Tests
 {
     [TestFixture]
     public class FirstNonRepeatingCharInStringTester
