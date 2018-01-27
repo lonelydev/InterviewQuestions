@@ -4,11 +4,11 @@ Write a function that returns true if the given Binary Tree is SumTree else fals
 
 Following is an example of SumTree.
 
-          26
-        /    \
-      10      3
-    /   \   /   \ 
-   4     6  1    2
+           26
+         /    \
+       10      3
+     /   \   /   \ 
+    4     6  1    2
 
  
 
