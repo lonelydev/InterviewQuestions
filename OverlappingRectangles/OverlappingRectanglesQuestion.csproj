@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="nunit.framework, Version=3.9.0.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
+      <HintPath>..\packages\NUnit.3.9.0\lib\net45\nunit.framework.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -43,16 +46,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PairOfRectangleCoordinates.cs" />
-    <Compile Include="Point.cs" />
-    <Compile Include="OverlappingRectangles.cs" />
+    <Compile Include="Problem\PairOfRectangleCoordinates.cs" />
+    <Compile Include="Problem\Point.cs" />
+    <Compile Include="Problem\OverlappingRectangles.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="RectangleCoordinates.cs" />
+    <Compile Include="Problem\RectangleCoordinates.cs" />
+    <Compile Include="Tests\OverlappingRectangleTest.cs" />
+    <Compile Include="Tests\OverlappingRectangleTestInput.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="packages.config" />
     <None Include="README.md" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

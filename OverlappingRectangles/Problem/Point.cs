@@ -1,4 +1,4 @@
-﻿namespace OverlappingRectanglesQuestion
+﻿namespace OverlappingRectanglesQuestion.Problem
 {
     public class Point
     {

@@ -1,9 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using NUnit.Framework;
-using OverlappingRectanglesQuestion;
+using OverlappingRectanglesQuestion.Problem;
 
-namespace OverlappingRectangleTester
+namespace OverlappingRectangleTester.Tests
 {
     public class OverlappingRectangleTestInput
     {

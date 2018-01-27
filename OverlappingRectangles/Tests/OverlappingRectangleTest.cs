@@ -1,7 +1,7 @@
 ﻿using NUnit.Framework;
-using OverlappingRectanglesQuestion;
+using OverlappingRectanglesQuestion.Problem;
 
-namespace OverlappingRectangleTester
+namespace OverlappingRectangleTester.Tests
 {
     [TestFixture]
     public class OverlappingRectangleTest

@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace OverlappingRectanglesQuestion
+namespace OverlappingRectanglesQuestion.Problem
 {
     public class RectangleCoordinates
     {
