@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using NUnit.Framework;
 
-namespace TheMaximumNumberWithAllDigitsInANumberTester
+namespace TheMaximumNumberWithAllDigitsInANumberTester.Tests
 {
     [TestFixture]
     public class MaxNumberFinderTestInput

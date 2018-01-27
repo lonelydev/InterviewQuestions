@@ -1,7 +1,7 @@
 ﻿using NUnit.Framework;
-using StackMinimumQuestion;
+using StackMinimumQuestion.Problem;
 
-namespace StackMinimumQuestionTester
+namespace StackMinimumQuestionTester.Tests
 {
     [TestFixture]
     public class StackMinTester

@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Linq;
 
-namespace StackMinimumQuestion
+namespace StackMinimumQuestion.Problem
 {
     /*
      * Please note that it's Function problem i.e.

@@ -1,7 +1,7 @@
-﻿using SumTree;
+﻿using SumTree.Problem;
 using NUnit.Framework;
 
-namespace SumTreeQuestionTester
+namespace SumTreeQuestionTester.Tests
 {
     [TestFixture]
     public class SumTreeTest
