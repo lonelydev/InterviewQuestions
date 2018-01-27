@@ -1,7 +1,7 @@
-﻿using ReverseWordsInASentenceQuestion;
+﻿using ReverseWordsInASentenceQuestion.Problem;
 using NUnit.Framework;
 
-namespace ReverseWordsInASentenceTester
+namespace ReverseWordsInASentenceTester.Tests
 {
     [TestFixture]
     public class ReverseWordsInASentenceTest
