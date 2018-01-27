@@ -1,4 +1,4 @@
-﻿namespace SumTree
+﻿namespace SumTree.Problem
 {
     public class SumTreeQuestion
     {

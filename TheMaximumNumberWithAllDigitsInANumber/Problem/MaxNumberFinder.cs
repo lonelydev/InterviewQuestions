@@ -1,6 +1,6 @@
 ﻿using System.Linq;
 
-namespace TheMaximumNumberWithAllDigitsInANumber
+namespace TheMaximumNumberWithAllDigitsInANumber.Problem
 {
     public class MaxNumberFinder
     {

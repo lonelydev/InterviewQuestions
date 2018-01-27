@@ -1,7 +1,7 @@
-﻿using TheMaximumNumberWithAllDigitsInANumber;
+﻿using TheMaximumNumberWithAllDigitsInANumber.Problem;
 using NUnit.Framework;
 
-namespace TheMaximumNumberWithAllDigitsInANumberTester
+namespace TheMaximumNumberWithAllDigitsInANumberTester.Tests
 {
     [TestFixture]
     public class MaxNumberFinderTest
