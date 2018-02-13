@@ -18,7 +18,9 @@ namespace ShoppingCheckout
       {
         yield return new TestCaseData("ABCDE").Returns(100);
         yield return new TestCaseData("AABCDE").Returns(110);
+        yield return new TestCaseData("AAABCDE").Returns(130);
         yield return new TestCaseData("AABBBBBCDE").Returns(205);
+        yield return new TestCaseData("AABBBBBBCDE").Returns(235);
       }
     }
   }
