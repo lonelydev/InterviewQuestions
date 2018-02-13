@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27130.2024
+VisualStudioVersion = 15.0.27130.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnagramQuestion", "Anagram\AnagramQuestion.csproj", "{19D8E13B-541E-4041-9CBD-B1EDD94F0C56}"
 EndProject
@@ -60,6 +60,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CTCI-ArraysAndStrings", "CTCI-ArraysAndStrings\CTCI-ArraysAndStrings.csproj", "{EDBEBA2A-07A5-4AE0-9A04-05E8ED0EEDF0}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayPairSumK", "ArrayPairSumK\ArrayPairSumK.csproj", "{6041ACE6-0CE2-4D07-B157-48D06C412785}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCheckout", "ShoppingCheckout\ShoppingCheckout.csproj", "{0ACEEA37-92F1-4157-A7A1-FE80F2CEF3EA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -171,6 +173,10 @@ Global
 		{6041ACE6-0CE2-4D07-B157-48D06C412785}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6041ACE6-0CE2-4D07-B157-48D06C412785}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6041ACE6-0CE2-4D07-B157-48D06C412785}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0ACEEA37-92F1-4157-A7A1-FE80F2CEF3EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ACEEA37-92F1-4157-A7A1-FE80F2CEF3EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ACEEA37-92F1-4157-A7A1-FE80F2CEF3EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ACEEA37-92F1-4157-A7A1-FE80F2CEF3EA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
