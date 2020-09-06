@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.27130.2036
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AnagramQuestion", "Anagram\AnagramQuestion.csproj", "{19D8E13B-541E-4041-9CBD-B1EDD94F0C56}"
 EndProject
@@ -60,6 +60,12 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ArrayPairSumK", "ArrayPairSumK\ArrayPairSumK.csproj", "{6041ACE6-0CE2-4D07-B157-48D06C412785}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShoppingCheckout", "ShoppingCheckout\ShoppingCheckout.csproj", "{0ACEEA37-92F1-4157-A7A1-FE80F2CEF3EA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LeetCode", "LeetCode", "{E0FF0610-F789-4EB6-8F20-751D1DE24E33}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Arrays", "Arrays", "{5996D181-8498-431B-B505-355153E44385}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveDuplicatesArraySorted", "RemoveDuplicatesArraySorted\RemoveDuplicatesArraySorted.csproj", "{6DD30C52-F458-45AC-BAC8-451AE29C9097}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -171,9 +177,17 @@ Global
 		{0ACEEA37-92F1-4157-A7A1-FE80F2CEF3EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0ACEEA37-92F1-4157-A7A1-FE80F2CEF3EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0ACEEA37-92F1-4157-A7A1-FE80F2CEF3EA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DD30C52-F458-45AC-BAC8-451AE29C9097}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DD30C52-F458-45AC-BAC8-451AE29C9097}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DD30C52-F458-45AC-BAC8-451AE29C9097}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DD30C52-F458-45AC-BAC8-451AE29C9097}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5996D181-8498-431B-B505-355153E44385} = {E0FF0610-F789-4EB6-8F20-751D1DE24E33}
+		{6DD30C52-F458-45AC-BAC8-451AE29C9097} = {5996D181-8498-431B-B505-355153E44385}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B980BB49-A35D-41A3-9370-A3F70EF23DF2}
