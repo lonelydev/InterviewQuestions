@@ -67,6 +67,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Arrays", "Arrays", "{5996D1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoveDuplicatesArraySorted", "RemoveDuplicatesArraySorted\RemoveDuplicatesArraySorted.csproj", "{6DD30C52-F458-45AC-BAC8-451AE29C9097}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RotateByKSteps", "RotateByKSteps\RotateByKSteps.csproj", "{75D46200-E74E-4171-BB18-986A0FA96616}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -181,6 +183,10 @@ Global
 		{6DD30C52-F458-45AC-BAC8-451AE29C9097}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6DD30C52-F458-45AC-BAC8-451AE29C9097}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6DD30C52-F458-45AC-BAC8-451AE29C9097}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75D46200-E74E-4171-BB18-986A0FA96616}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75D46200-E74E-4171-BB18-986A0FA96616}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75D46200-E74E-4171-BB18-986A0FA96616}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75D46200-E74E-4171-BB18-986A0FA96616}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -188,6 +194,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{5996D181-8498-431B-B505-355153E44385} = {E0FF0610-F789-4EB6-8F20-751D1DE24E33}
 		{6DD30C52-F458-45AC-BAC8-451AE29C9097} = {5996D181-8498-431B-B505-355153E44385}
+		{75D46200-E74E-4171-BB18-986A0FA96616} = {5996D181-8498-431B-B505-355153E44385}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B980BB49-A35D-41A3-9370-A3F70EF23DF2}
