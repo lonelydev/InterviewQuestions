@@ -39,7 +39,7 @@ namespace SumTwoNumbers
         }
     }
 
-    public class TwoLinkedListSumTestCases
+    public partial class TwoLinkedListSumTestCases
     {
         public static IEnumerable<TestCaseData> SolutionTestCaseInputAndExpectations
         {

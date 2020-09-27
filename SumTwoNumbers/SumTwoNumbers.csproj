@@ -48,9 +48,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Improved\SolutionTestCases.cs" />
     <Compile Include="ListNode.cs" />
     <Compile Include="Solution.cs" />
+    <Compile Include="Improved\Solution.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Improved\SolutionTests.cs" />
+    <Compile Include="TestHelper.cs" />
+    <Compile Include="TestHelperTest.cs" />
     <Compile Include="Tests.cs" />
   </ItemGroup>
   <ItemGroup>
